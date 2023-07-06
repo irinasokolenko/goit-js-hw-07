@@ -84,9 +84,3 @@ function onBackdropClick(event) {
     onCloseBtnClick();
   }
 }
-function onEscBtnPress(event) {
-  console.log(event);
-  if (event.code === 'Escape') {
-    onCloseBtnClick();
-  }
-}
