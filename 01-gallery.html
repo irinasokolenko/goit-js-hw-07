@@ -5,25 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Image gallery</title>
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link href="
-    https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
-    " rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <p><a class="main-link" href="index.html">Go back</a></p>
 
     <!-- Add gallery items to this list -->
-    <div class="lightbox js-lightbox">
-      <div class="lightbox__overlay"></div>
+    <div class="gallery"></div>
 
-      <div class="lightbox__content">
-        <img class="lightbox__image" src="" alt="" />
-      </div>
-
-      
-
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script src="js/01-gallery.js" type="module"></script>
   </body>
 </html>
